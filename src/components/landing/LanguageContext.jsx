@@ -11,13 +11,15 @@ const translations = {
     contact: "Contact",
     
     // Hero
-    heroTitle: "Sculpt in Rose-Toned Luxury.",
-    heroSubtitle: "Experience the art of body refinement through advanced laser-lipolysis technology. Elegant, minimally-invasive, and designed exclusively for you.",
+    heroButtonTitle: "Laser Lipolysis",
+    heroTitle: "Experts in Laser Lipolysis.",
+    heroSubtitle: "Experience the art of body contouring through advanced laser lipolysis technology. Elegant, minimally invasive, and designed exclusively for you.",
     heroCta: "Book on WhatsApp",
     
     // Services
+    servicesButtonTitle: "Excellence",
     servicesTitle: "Our Services",
-    servicesSubtitle: "Curated excellence in aesthetic medicine",
+    servicesSubtitle: "Proven excellence in aesthetic medicine",
     
     service1Title: "Laser-Lipolysis",
     service1Desc: "Advanced technology targeting stubborn fat deposits while tightening skin. Minimally-invasive procedure with precise results and reduced recovery time for refined body contours.",
@@ -25,14 +27,16 @@ const translations = {
     service2Title: "Post-Operative Care",
     service2Desc: "Comprehensive aftercare protocols designed to optimize recovery and enhance results. Personalized attention ensuring comfort and confidence throughout your healing journey.",
     
-    service3Title: "Concierge Transport",
+    service3Title: "Private transportation to your city of origin in Colombia",
     service3Desc: "Luxury door-to-door transportation coordinated seamlessly with appointments. Private vehicles, professional chauffeurs, and complete discretion for your peace of mind.",
     
     // Gallery
-    galleryTitle: "The Experience",
-    gallerySubtitle: "Glimpses of luxury and precision",
-    
+    galleryButtonTitle: "Gallery",
+    galleryTitle: "Our Experience",
+    gallerySubtitle: "Observe the luxury and precision",
+      
     // Contact
+    contactButtonTitle: "Contact",
     contactTitle: "Begin Your Journey",
     contactSubtitle: "Send us a message",
     contactName: "Full Name",
@@ -43,7 +47,7 @@ const translations = {
     contactResponse: "Response within 15 min on WhatsApp",
     
     // Footer
-    disclaimer: "Corporal Luxe is an independent patient-coordinator; all procedures are performed by third-party licensed medical professionals.",
+    disclaimer: "Corporal Luxe is an independent patient coordinator; all procedures are performed by certified professional surgeons.",
     quickLinks: "Quick Links",
     businessInfo: "Business Information",
     address: "Address",
@@ -64,11 +68,13 @@ const translations = {
     contact: "Contacto",
     
     // Hero
+    heroButtonTitle: "Expertos en Lipolisis Láser",
     heroTitle: "Expertos en lipólisis láser.",
     heroSubtitle: "Experimenta el arte del refinamiento corporal a través de tecnología avanzada de lipólisis láser. Elegante, mínimamente invasivo y diseñado exclusivamente para ti.",
     heroCta: "Reservar en WhatsApp",
     
     // Services
+    servicesButtonTitle: "Excelencia",
     servicesTitle: "Nuestros Servicios",
     servicesSubtitle: "Excelencia comprobada en medicina estética",
     
@@ -82,10 +88,12 @@ const translations = {
     service3Desc: "Transporte de lujo puerta a puerta coordinado perfectamente con citas. Vehículos privados, conductores profesionales y completa discreción para tu tranquilidad.",
     
     // Gallery
+    galleryButtonTitle: "Galeria",
     galleryTitle: "Nuestra Experiencia",
     gallerySubtitle: "Observa el lujo y precisión",
     
     // Contact
+    contactButtonTitle: "Contacto",
     contactTitle: "Comienza Tu Camino",
     contactSubtitle: "Envíanos un mensaje",
     contactName: "Nombre Completo",

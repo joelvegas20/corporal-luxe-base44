@@ -51,7 +51,11 @@ export default function Navbar() {
                 }`}
                 aria-label="Cambiar a Español"
               >
-                <span className="text-lg">🇨🇴</span>
+                <svg className="w-5 h-5" viewBox="0 0 32 32">
+                  <rect width="32" height="32" fill="#FCD116"/>
+                  <rect y="10.667" width="32" height="10.667" fill="#003893"/>
+                  <rect y="21.333" width="32" height="10.667" fill="#CE1126"/>
+                </svg>
                 <span className="hidden sm:inline">ES</span>
               </button>
               <span className="text-gray-300">|</span>
@@ -64,7 +68,16 @@ export default function Navbar() {
                 }`}
                 aria-label="Switch to English"
               >
-                <span className="text-lg">🇺🇸</span>
+                <svg className="w-5 h-5" viewBox="0 0 32 32">
+                  <rect width="32" height="32" fill="#B22234"/>
+                  <rect y="2.462" width="32" height="2.462" fill="#FFF"/>
+                  <rect y="7.385" width="32" height="2.462" fill="#FFF"/>
+                  <rect y="12.308" width="32" height="2.462" fill="#FFF"/>
+                  <rect y="17.231" width="32" height="2.462" fill="#FFF"/>
+                  <rect y="22.154" width="32" height="2.462" fill="#FFF"/>
+                  <rect y="27.077" width="32" height="2.462" fill="#FFF"/>
+                  <rect width="12.8" height="14.769" fill="#3C3B6E"/>
+                </svg>
                 <span className="hidden sm:inline">EN</span>
               </button>
             </div>
