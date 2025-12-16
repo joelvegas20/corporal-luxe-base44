@@ -5,33 +5,63 @@ import { X, ZoomIn } from 'lucide-react';
 
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600&q=80&blur=5",
-    alt: "Luxury spa atmosphere",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d3a76d49e_WhatsAppImage2025-12-15at104821.jpg",
+    alt: "Equipo de láser-lipólisis",
     span: "col-span-2 row-span-2"
   },
   {
-    url: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80&blur=5",
-    alt: "Premium wellness center",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/c40914361_WhatsAppImage2025-12-15at104817.jpg",
+    alt: "Profesional realizando tratamiento",
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600&q=80&blur=5",
-    alt: "Modern clinic interior",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/49c42a984_WhatsAppImage2025-12-15at1048201.jpeg",
+    alt: "Especialista en procedimiento",
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80&blur=5",
-    alt: "Consultation space",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d019fa466_WhatsAppImage2025-12-15at104820.jpeg",
+    alt: "Resultados antes y después",
     span: "col-span-1 row-span-2"
   },
   {
-    url: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=80&blur=5",
-    alt: "Luxury details",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/877cd70cf_WhatsAppImage2025-12-15at1048191.jpg",
+    alt: "Transformación de paciente",
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80&blur=5",
-    alt: "Premium equipment",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d87cd8e54_WhatsAppImage2025-12-15at1048204.jpg",
+    alt: "Resultados comparativos",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/8f0c0ec7e_WhatsAppImage2025-12-15at1048181.jpg",
+    alt: "Tratamiento abdominal",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/2639d198a_WhatsAppImage2025-12-15at1048193.jpg",
+    alt: "Marcado pre-procedimiento",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/acdef15f4_WhatsAppImage2025-12-15at1048182.jpg",
+    alt: "Procedimiento en proceso",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/55420c313_WhatsAppImage2025-12-15at1048194.jpg",
+    alt: "Profesional en sala de tratamiento",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a8a73180a_WhatsAppImage2025-12-15at1048184.jpg",
+    alt: "Resultados de tratamiento",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/3777408f2_WhatsAppImage2025-12-15at104818.jpeg",
+    alt: "Resultado post-tratamiento",
     span: "col-span-1 row-span-1"
   }
 ];
@@ -52,7 +82,7 @@ export default function Gallery() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-rose-100 text-rose-600 text-sm font-medium tracking-wider uppercase mb-6">
-            Gallery
+            Galeria
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4 font-light">
             {t('galleryTitle')}

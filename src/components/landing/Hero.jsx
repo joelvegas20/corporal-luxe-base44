@@ -51,7 +51,7 @@ export default function Hero() {
           >
             <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
             <span className="text-rose-600 text-sm font-medium tracking-wider uppercase">
-              Laser-Lipolysis Specialists
+              Expertos en Lipolisis Láser
             </span>
           </motion.div>
 

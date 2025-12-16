@@ -42,7 +42,7 @@ export default function Services() {
           className="text-center mb-16 sm:mb-20"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-rose-100 text-rose-600 text-sm font-medium tracking-wider uppercase mb-6">
-            Excellence
+            Excelencia
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4 font-light">
             {t('servicesTitle')}

@@ -14,7 +14,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Facebook, href: '#', label: 'Facebook' }
+    { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61576460734284', label: 'Facebook' }
   ];
 
   const scrollToSection = (href) => {
@@ -90,8 +90,8 @@ export default function Footer() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 border border-white/20 text-sm text-rose-100/80 space-y-2">
               <p className="font-medium text-white">Corporalluxe</p>
               <p><span className="text-rose-100/60">RUT:</span> 12345678</p>
-              <p><span className="text-rose-100/60">{t('address')}:</span> calle 123 av 57</p>
-              <p><span className="text-rose-100/60">{t('phone')}:</span> +57 322 8308 728</p>
+              <p><span className="text-rose-100/60">{t('address')}:</span> CRA 48 # 95-47, Bogotá, Colombia</p>
+              <p><span className="text-rose-100/60">{t('phone')}:</span> +57 322 8308 728 | +57 313 4870316 </p>
               <p><span className="text-rose-100/60">{t('email')}:</span> info@corporalluxe.com</p>
             </div>
           </div>

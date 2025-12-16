@@ -48,7 +48,7 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-rose-100 text-rose-600 text-sm font-medium tracking-wider uppercase mb-6">
-            Contact
+            Contacto
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4 font-light">
             {t('contactTitle')}
@@ -157,7 +157,7 @@ export default function Contact() {
           >
             <div className="h-full rounded-3xl overflow-hidden shadow-xl shadow-rose-100/20 border border-rose-100/50">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6360779167373!2d-74.06528492507877!3d4.65995479582841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a2d8f1f1f1f%3A0x1f1f1f1f1f1f1f1f!2sCalle%20123%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4880543543322!2d-74.06334092349486!3d4.684912341791083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ae9959f8f71%3A0xce9e20bdfe1b0e97!2sCra.%2048%20%2395-47%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1765845270225!5m2!1ses-419!2sco"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -176,8 +176,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-900 mb-1">Corporal Luxe</p>
-                  <p className="text-xs text-gray-600">calle 123 av 12, Colombia</p>
-                  <p className="text-xs text-gray-500 mt-1">+57 322 8308 728</p>
+                  <p className="text-xs text-gray-600">CRA 48 # 95-47, Bogotá, Colombia</p>
+                  <p className="text-xs text-gray-500 mt-1">+57 322 8308 728 | +57 313 4870316</p>
                 </div>
               </div>
             </div>

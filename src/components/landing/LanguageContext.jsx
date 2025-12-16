@@ -64,26 +64,26 @@ const translations = {
     contact: "Contacto",
     
     // Hero
-    heroTitle: "Esculpe en Lujo Rosado.",
-    heroSubtitle: "Experimenta el arte del refinamiento corporal a través de tecnología avanzada de láser-lipólisis. Elegante, mínimamente invasivo y diseñado exclusivamente para ti.",
+    heroTitle: "Expertos en lipólisis láser.",
+    heroSubtitle: "Experimenta el arte del refinamiento corporal a través de tecnología avanzada de lipólisis láser. Elegante, mínimamente invasivo y diseñado exclusivamente para ti.",
     heroCta: "Reservar en WhatsApp",
     
     // Services
     servicesTitle: "Nuestros Servicios",
-    servicesSubtitle: "Excelencia curada en medicina estética",
+    servicesSubtitle: "Excelencia comprobada en medicina estética",
     
-    service1Title: "Láser-Lipólisis",
+    service1Title: "Lipólisis Láser",
     service1Desc: "Tecnología avanzada que apunta depósitos de grasa persistentes mientras reafirma la piel. Procedimiento mínimamente invasivo con resultados precisos y tiempo de recuperación reducido.",
     
     service2Title: "Cuidado Post-Operatorio",
     service2Desc: "Protocolos integrales de cuidado posterior diseñados para optimizar la recuperación y mejorar resultados. Atención personalizada asegurando comodidad y confianza durante tu sanación.",
     
-    service3Title: "Transporte Concierge",
-    service3Desc: "Transporte de lujo puerta a puerta coordinado perfectamente con citas. Vehículos privados, choferes profesionales y completa discreción para tu tranquilidad.",
+    service3Title: "Transporte privado a su ciudad de orígen",
+    service3Desc: "Transporte de lujo puerta a puerta coordinado perfectamente con citas. Vehículos privados, conductores profesionales y completa discreción para tu tranquilidad.",
     
     // Gallery
-    galleryTitle: "La Experiencia",
-    gallerySubtitle: "Vistazos de lujo y precisión",
+    galleryTitle: "Nuestra Experiencia",
+    gallerySubtitle: "Observa el lujo y precisión",
     
     // Contact
     contactTitle: "Comienza Tu Camino",
@@ -93,10 +93,10 @@ const translations = {
     contactPhone: "Número de Teléfono",
     contactMessage: "Tu Mensaje",
     contactSubmit: "Enviar Mensaje",
-    contactResponse: "Respuesta en 15 min por WhatsApp",
+    contactResponse: "Respuesta pronta",
     
     // Footer
-    disclaimer: "Corporal Luxe es un coordinador de pacientes independiente; todos los procedimientos son realizados por profesionales médicos licenciados de terceros.",
+    disclaimer: "Corporal Luxe es un coordinador de pacientes independiente; todos los procedimientos son realizados por cirujanos profesionales certificados.",
     quickLinks: "Enlaces Rápidos",
     businessInfo: "Información Comercial",
     address: "Domicilio",
