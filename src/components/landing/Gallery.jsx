@@ -79,6 +79,26 @@ const galleryImages = [
     url: "https://jzuhcxmtrgyfsqtrxgrv.supabase.co/storage/v1/object/public/corporal-luxe/WhatsApp%20Video%202025-12-15%20at%2021.13.45.mp4",
     alt: "Video de procedimiento",
     span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a63034057_WhatsAppImage2025-12-16at175922.jpeg",
+    alt: "Áreas de tratamiento corporal",
+    span: "col-span-1 row-span-2"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5999b8a22_WhatsAppImage2025-12-16at180307.jpeg",
+    alt: "Resultados de reducción de grasa",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d3c6586c6_WhatsAppImage2025-12-16at180743.jpeg",
+    alt: "Transformación corporal",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5f9bf7dbe_WhatsAppImage2025-12-16at181123.jpeg",
+    alt: "Contorneo de glúteos y cintura",
+    span: "col-span-1 row-span-1"
   }
 ];
 
