@@ -177,7 +177,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-gray-900 mb-1">Corporal Luxe</p>
                   <p className="text-xs text-gray-600">CRA 48 # 95-47, Bogotá, Colombia</p>
-                  <p className="text-xs text-gray-500 mt-1">+57 322 8308 728 | +57 313 4870316</p>
+                  <p className="text-xs text-gray-500 mt-1">+57 322 8308 728</p>
                 </div>
               </div>
             </div>

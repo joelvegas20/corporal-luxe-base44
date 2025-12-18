@@ -13,7 +13,6 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: '#', label: 'Instagram' },
     { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61576460734284', label: 'Facebook' }
   ];
 
@@ -91,7 +90,7 @@ export default function Footer() {
               <p className="font-medium text-white">Corporalluxe</p>
               <p><span className="text-rose-100/60">RUT:</span> 12345678</p>
               <p><span className="text-rose-100/60">{t('address')}:</span> CRA 48 # 95-47, Bogotá, Colombia</p>
-              <p><span className="text-rose-100/60">{t('phone')}:</span> +57 322 8308 728 | +57 313 4870316 </p>
+              <p><span className="text-rose-100/60">{t('phone')}:</span> +57 322 8308 728 </p>
               <p><span className="text-rose-100/60">{t('email')}:</span> info@corporalluxe.com</p>
             </div>
           </div>

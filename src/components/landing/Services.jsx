@@ -18,6 +18,11 @@ const services = [
     icon: Car,
     titleKey: 'service3Title',
     descKey: 'service3Desc'
+  },
+  {
+    icon: Heart,
+    titleKey: 'service4Title',
+    descKey: 'service4Desc'
   }
 ];
 
@@ -61,7 +66,7 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="group"
+              className={`group ${index === 3 ? 'md:col-start-2' : ''}`}
             >
               <div className="relative bg-gradient-to-br from-rose-50 to-white rounded-3xl p-8 lg:p-10 h-full transition-all duration-500 hover:shadow-2xl hover:shadow-rose-100/50 border border-rose-100/50">
                 {/* Icon Container */}

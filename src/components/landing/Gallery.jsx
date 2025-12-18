@@ -5,9 +5,55 @@ import { X, ZoomIn } from 'lucide-react';
 
 const galleryImages = [
   {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/0f2ff8de5_WhatsAppImage2025-12-17at193505.jpg",
+    alt: "Marcado para lipotransferencia glútea",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d87cd8e54_WhatsAppImage2025-12-15at1048204.jpg",
+    alt: "Resultados comparativos",
+    span: "col-span-1 row-span-1"
+  },
+   {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/55420c313_WhatsAppImage2025-12-15at1048194.jpg",
+    alt: "Profesional en sala de tratamiento",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    type: "video",
+    url: "https://jzuhcxmtrgyfsqtrxgrv.supabase.co/storage/v1/object/public/corporal-luxe/WhatsApp%20Video%202025-12-15%20at%2021.13.45.mp4",
+    alt: "Video de procedimiento",
+    span: "col-span-2 row-span-2"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a63034057_WhatsAppImage2025-12-16at175922.jpeg",
+    alt: "Áreas de tratamiento corporal",
+    span: "col-span-1 row-span-2"
+  },
+    {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/90cb7dce5_WhatsAppImage2025-12-15at201938_6779dd32.jpg",
+    alt: "Tratamiento de lipólisis",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5999b8a22_WhatsAppImage2025-12-16at180307.jpeg",
+    alt: "Resultados de reducción de grasa",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d3c6586c6_WhatsAppImage2025-12-16at180743.jpeg",
+    alt: "Transformación corporal",
+    span: "col-span-1 row-span-1"
+  },
+  {
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5f9bf7dbe_WhatsAppImage2025-12-16at181123.jpeg",
+    alt: "Contorneo de glúteos y cintura",
+    span: "col-span-1 row-span-1"
+  },
+  {
     url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d3a76d49e_WhatsAppImage2025-12-15at104821.jpg",
     alt: "Equipo de láser-lipólisis",
-    span: "col-span-2 row-span-2"
+    span: "col-span-1 row-span-1"
   },
   {
     url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/c40914361_WhatsAppImage2025-12-15at104817.jpg",
@@ -30,11 +76,6 @@ const galleryImages = [
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d87cd8e54_WhatsAppImage2025-12-15at1048204.jpg",
-    alt: "Resultados comparativos",
-    span: "col-span-1 row-span-1"
-  },
-  {
     url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/8f0c0ec7e_WhatsAppImage2025-12-15at1048181.jpg",
     alt: "Tratamiento abdominal",
     span: "col-span-1 row-span-1"
@@ -50,11 +91,6 @@ const galleryImages = [
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/55420c313_WhatsAppImage2025-12-15at1048194.jpg",
-    alt: "Profesional en sala de tratamiento",
-    span: "col-span-1 row-span-1"
-  },
-  {
     url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a8a73180a_WhatsAppImage2025-12-15at1048184.jpg",
     alt: "Resultados de tratamiento",
     span: "col-span-1 row-span-1"
@@ -65,39 +101,8 @@ const galleryImages = [
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/90cb7dce5_WhatsAppImage2025-12-15at201938_6779dd32.jpg",
-    alt: "Tratamiento de lipólisis",
-    span: "col-span-1 row-span-1"
-  },
-  {
     url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a9bdb1d77_WhatsAppImage2025-12-15at201938_5fcf2991.jpg",
     alt: "Procedimiento de contorneo corporal",
-    span: "col-span-1 row-span-1"
-  },
-  {
-    type: "video",
-    url: "https://jzuhcxmtrgyfsqtrxgrv.supabase.co/storage/v1/object/public/corporal-luxe/WhatsApp%20Video%202025-12-15%20at%2021.13.45.mp4",
-    alt: "Video de procedimiento",
-    span: "col-span-1 row-span-1"
-  },
-  {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a63034057_WhatsAppImage2025-12-16at175922.jpeg",
-    alt: "Áreas de tratamiento corporal",
-    span: "col-span-1 row-span-2"
-  },
-  {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5999b8a22_WhatsAppImage2025-12-16at180307.jpeg",
-    alt: "Resultados de reducción de grasa",
-    span: "col-span-1 row-span-1"
-  },
-  {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d3c6586c6_WhatsAppImage2025-12-16at180743.jpeg",
-    alt: "Transformación corporal",
-    span: "col-span-1 row-span-1"
-  },
-  {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5f9bf7dbe_WhatsAppImage2025-12-16at181123.jpeg",
-    alt: "Contorneo de glúteos y cintura",
     span: "col-span-1 row-span-1"
   }
 ];
@@ -123,9 +128,7 @@ export default function Gallery() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4 font-light">
             {t('galleryTitle')}
           </h2>
-          <p className="text-gray-600 text-lg max-w-xl mx-auto">
-            {t('gallerySubtitle')}
-          </p>
+        
         </motion.div>
 
         {/* Masonry Grid */}
