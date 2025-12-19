@@ -26,7 +26,7 @@ const galleryImages = [
     span: "col-span-2 row-span-2"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/a63034057_WhatsAppImage2025-12-16at175922.jpeg",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/eedc86897_WhatsAppImage2025-12-18at200834.jpeg",
     alt: "Áreas de tratamiento corporal",
     span: "col-span-1 row-span-2"
   },
@@ -36,17 +36,17 @@ const galleryImages = [
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5999b8a22_WhatsAppImage2025-12-16at180307.jpeg",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5cfe3be7a_WhatsAppImage2025-12-18at200833.jpeg",
     alt: "Resultados de reducción de grasa",
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/d3c6586c6_WhatsAppImage2025-12-16at180743.jpeg",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/98ed611a0_WhatsAppImage2025-12-18at2008341.jpeg",
     alt: "Transformación corporal",
     span: "col-span-1 row-span-1"
   },
   {
-    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/5f9bf7dbe_WhatsAppImage2025-12-16at181123.jpeg",
+    url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/693db443e2ae5dcd5b111c02/18df87d11_WhatsAppImage2025-12-18at2008331.jpeg",
     alt: "Contorneo de glúteos y cintura",
     span: "col-span-1 row-span-1"
   },
