@@ -3,7 +3,7 @@ import { useLanguage } from './LanguageContext';
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=573228308728&text&type=phone_number&app_absent=0";
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=573138752511&text&type=phone_number&app_absent=0";
 
 export default function Hero() {
   const { t } = useLanguage();

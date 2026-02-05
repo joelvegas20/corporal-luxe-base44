@@ -25,7 +25,7 @@ export default function Contact() {
     
     // Open WhatsApp with pre-filled message
     const whatsappMessage = `Hola, soy ${formData.name}. ${formData.message}`;
-    const whatsappUrl = `https://api.whatsapp.com/send/?phone=573228308728&text=${encodeURIComponent(whatsappMessage)}&type=phone_number&app_absent=0`;
+    const whatsappUrl = `https://api.whatsapp.com/send/?phone=573138752511&text=${encodeURIComponent(whatsappMessage)}&type=phone_number&app_absent=0`;
     window.open(whatsappUrl, '_blank');
     
     setIsSubmitting(false);
@@ -177,7 +177,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-gray-900 mb-1">Corporal Luxe</p>
                   <p className="text-xs text-gray-600">CRA 48 # 95-47, Bogotá, Colombia</p>
-                  <p className="text-xs text-gray-500 mt-1">+57 322 8308 728</p>
+                  <p className="text-xs text-gray-500 mt-1">+57 313 8752 511</p>
                 </div>
               </div>
             </div>

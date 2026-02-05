@@ -90,7 +90,7 @@ export default function Footer() {
               <p className="font-medium text-white">Corporalluxe</p>
               <p><span className="text-rose-100/60">RUT:</span> 13740156-2</p>
               <p><span className="text-rose-100/60">{t('address')}:</span> CRA 48 # 95-47, Bogotá, Colombia</p>
-              <p><span className="text-rose-100/60">{t('phone')}:</span> +57 322 8308 728 </p>
+              <p><span className="text-rose-100/60">{t('phone')}:</span> +57 313 8752 511 </p>
               <p><span className="text-rose-100/60">{t('email')}:</span> info@corporalluxe.com</p>
             </div>
           </div>
